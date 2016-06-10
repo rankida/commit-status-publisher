@@ -2,10 +2,10 @@
 <teamcity-plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:shemas-jetbrains-com:teamcity-plugin-v1-xml">
   <info>
     <name>commit-status-publisher</name>
-    <display-name>Commit Status Publisher</display-name>
+    <display-name>Commit Status Publisher (Modified)</display-name>
     <version>@Version@</version>
-    <description>Publish commit status to external system</description>
-    <download-url>http://teamcity.jetbrains.com/viewType.html?buildTypeId=TeamCityPluginsByJetBrains_Unsorted_CommitStatusPublisher</download-url>
+    <description>Publish commit status to external system. Modified by Rankida.</description>
+    <download-url></download-url>
     <email>dmitry.neverov@jetbrains.com</email>
     <vendor>
       <name>JetBrains, s.r.o.</name>

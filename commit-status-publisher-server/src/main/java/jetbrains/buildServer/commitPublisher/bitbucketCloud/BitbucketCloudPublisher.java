@@ -114,7 +114,7 @@ public class BitbucketCloudPublisher extends BaseCommitStatusPublisher {
                     @NotNull BuildRevision revision,
                     @NotNull BitbucketCloudBuildStatus status,
                     @NotNull String comment) {
-    String msg = createMessage(status, build.getBuildPromotion().getBuildTypeId(), getBuildName(build), myLinks.getViewResultsUrl(build), comment);
+    String msg = createMessage(status, build.getBuildPromotion().getBuildTypeId(), getBuildName(build), "http://rankida.com", comment);
     try {
       final VcsRootInstance root = revision.getRoot();
       Repository repository = BitbucketCloudRepositoryParser.parseRepository(root);
